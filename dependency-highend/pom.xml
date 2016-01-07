@@ -9,7 +9,7 @@
 
     <artifactId>dependency-highend</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>dependency-highend</name>
     <url>http://maven.apache.org</url>
