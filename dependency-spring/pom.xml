@@ -96,17 +96,22 @@
             </dependency>
 
             <!-- Spring AOP -->
-            <!--<dependency>-->
-                <!--<groupId>org.aspectj</groupId>-->
-                <!--<artifactId>aspectjweaver</artifactId>-->
-                <!--<version>1.8.2</version>-->
-            <!--</dependency>-->
-
             <dependency>
-                <groupId>org.springframework</groupId>
-                <artifactId>spring-aspects</artifactId>
-                <version>${spring.version}</version>
+                <groupId>org.aspectj</groupId>
+                <artifactId>aspectjweaver</artifactId>
+                <version>1.8.2</version>
             </dependency>
+
+            <!--<exclusion>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring</artifactId>-->
+            <!--</exclusion>-->
+
+            <!--<dependency>-->
+                <!--<groupId>org.springframework</groupId>-->
+                <!--<artifactId>spring-aspects</artifactId>-->
+                <!--<version>${spring.version}</version>-->
+            <!--</dependency>-->
 
             <!-- <dependency> -->
             <!-- <groupId>org.springframework</groupId> -->
