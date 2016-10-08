@@ -24,12 +24,12 @@
 
             <!-- 多线程测试工具 Begin -->
             <!-- 私有庫 maven-lib-repo\fakepath\groboutils-core\5\groboutils-core-5.jar-->
-            <dependency>
+           <!--  <dependency>
                 <groupId>fakepath</groupId>
                 <artifactId>groboutils-core</artifactId>
                 <version>5</version>
                 <scope>test</scope>
-            </dependency>
+            </dependency> -->
             <!-- 多线程测试工具 End -->
 
             <!-- Zookeeper 用于分布式服务管理 -->
