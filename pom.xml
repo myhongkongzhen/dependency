@@ -33,16 +33,17 @@
         <spring.version>4.3.9.RELEASE</spring.version>
     </properties>
 
+    <!-- mvn deploy -->
     <distributionManagement>
         <repository>
             <id>nexus-releases</id>
             <name>Nexus Release Repository</name>
-            <url>http://127.0.0.1:8888/nexus/content/repositories/releases/</url>
+            <url>http://127.0.0.1:8888/nexus/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus-snapshots</id>
             <name>Nexus Snapshot Repository</name>
-            <url>http://127.0.0.1:8888/nexus/content/repositories/snapshots/</url>
+            <url>http://127.0.0.1:8888/nexus/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
 
